@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sam Mutuota | IT Student & Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2>Sam.</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home">
+
+        <div>
+            <p>Hello, I'm</p>
+
+            <h1>Sam Mutuota</h1>
+
+            <h2>IT Student & Aspiring Developer</h2>
+
+            <p>
+                I'm learning programming, web development,
+                Linux and technology while building useful projects.
+            </p>
+
+            <a href="#projects">View My Projects</a>
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+<p>
+    I'm an IT student passionate about computing,
+    software development and innovation.
+</p>
+
+<p>
+    I enjoy exploring technology, learning how software works,
+    and turning ideas into useful projects.
+</p>
+
+<p>
+    My goal is to become a skilled software developer
+    and build technology that solves real-world problems.
+</p>
+        </p>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <ul>
+         <div class="skills-container">
+
+    <div class="skill">
+        <h3>HTML</h3>
+        <p>Building the structure of websites.</p>
+    </div>
+
+    <div class="skill">
+        <h3>CSS</h3>
+        <p>Designing responsive and attractive websites.</p>
+    </div>
+
+    <div class="skill">
+        <h3>JavaScript</h3>
+        <p>Adding interaction and functionality.</p>
+    </div>
+
+    <div class="skill">
+        <h3>C Programming</h3>
+        <p>Learning programming fundamentals and problem solving.</p>
+    </div>
+
+    <div class="skill">
+        <h3>Linux</h3>
+        <p>Working with Linux systems and the command line.</p>
+    </div>
+
+    <div class="skill">
+        <h3>Git</h3>
+        <p>Managing and tracking code projects.</p>
+    </div>
+
+</div>/* =========================
+   SKILL CARDS
+========================= */
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Mobile skills */
+
+@media (max-width: 700px) {
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+        </ul>
+
+    </section>
+
+<!-- Projects -->
+<section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+                A responsive personal portfolio website
+                built from scratch using HTML and CSS.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+            <a href="#">View Project</a>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>C Programming Project</h3>
+
+            <p>
+                A small programming project created while
+                learning C programming and problem solving.
+            </p>
+
+            <div class="project-tech">
+                <span>C</span>
+                <span>Programming</span>
+            </div>
+
+            <a href="#">View Project</a>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>Linux Project</h3>
+
+            <p>
+                Exploring Linux, the terminal and developer
+                tools while building my development environment.
+            </p>
+
+            <div class="project-tech">
+                <span>Linux</span>
+                <span>Terminal</span>
+            </div>
+
+            <a href="#">View Project</a>
+
+        </div>
+
+    </div>
+
+</section>
+        </div>
+<!-- Contact -->
+<section id="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>
+        I'm always interested in learning, building,
+        and connecting with people interested in technology.
+    </p>
+
+    <div class="contact-links">
+
+        <a href="mailto:your-email@example.com">
+            📧 Email Me
+        </a>
+
+        <a href="https://github.com/" target="_blank">
+            💻 GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank">
+            🔗 LinkedIn
+        </a>
+
+    </div>
+
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Sam Mutuota. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
