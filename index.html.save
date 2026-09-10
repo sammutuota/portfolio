@@ -150,59 +150,7 @@
                 learning C programming and problem solving.
             </p>
 
-            <div class="project-tech">
-                <span>C</span>
-                <span>Programming</span>
-            </div>
-
-            <a href="#">View Project</a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Linux Project</h3>
-
-            <p>
-                Exploring Linux, the terminal and developer
-                tools while building my development environment.
-            </p>
-
-            <div class="project-tech">
-                <span>Linux</span>
-                <span>Terminal</span>
-            </div>
-
-            <a href="#">View Project</a>
-
-        </div>
-
-    </div>
-
-</section>
-        </div>
-<!-- Contact -->
-<section id="contact">
-
-    <h2>Let's Connect</h2>
-
-    <p>
-        I'm always interested in learning, building,
-        and connecting with people interested in technology.
-    </p>
-
-    <div class="contact-links">
-
-        <a href="mailto:your-email@example.com">
-            📧 Email Me
-        </a>
-
-        <a href="https://github.com/" target="_blank">
-            💻 GitHub
-        </a>
-
-        <a href="https://www.linkedin.com/" target="_blank">
+sed -n '90,110p' index.html
             🔗 LinkedIn
         </a>
 
