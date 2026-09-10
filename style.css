@@ -412,3 +412,10 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* Force 3 columns on larger screens */
+@media (min-width: 900px) {
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
