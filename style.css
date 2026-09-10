@@ -357,3 +357,13 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
+/* ==================== HERO SPACING FIX ==================== */
+#home > div > p:last-of-type {
+    margin-bottom: 30px !important;
+}
+
+#home > div > a {
+    margin-top: 10px !important;
+    display: inline-block !important;
+}
