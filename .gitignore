@@ -6,3 +6,10 @@
 *.save
 *.save.*
 *.old
+*.save
+*.sav
+*.backup
+*.bak
+.DS_Store
+node_modules/
+.vercel
